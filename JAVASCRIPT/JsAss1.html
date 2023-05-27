@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- The button that triggers the change of background color -->
+    <button id="changeColor">Click Me</button>
+
+
+    <!-- JavaScript code to change the background color -->
+    <script>
+        // Assigning the 'getElementById' function to the 'button' variable
+        const button = document.getElementById('changeColor'); 
+
+        // Array of color values    
+        const color = ['yellow', 'brown', 'grey', 'black', 'green']; 
+        // Randomly changing the background color of the document body
+        function change() {
+            document.body.style.background = color[Math.floor(5 * Math.random())]; 
+        }
+
+        // Event listener to call the 'change' function when the button is clicked
+        changeColor.addEventListener('click', change);
+        
+        // A prompt to tell the user to enter their name and storing the value entered in the 'userInput' variable
+        let userInput = prompt('Please enter your name:');
+
+        if (userInput) {
+        // Displaying a greeting with the user's name if a name is entered
+           alert('Hello, ' + userInput + ',' + ' click the button to change your backgroung color'); 
+        } else {
+        // Handling the case where the user did not enter anything
+        alert('Welcome, click the button to change your background color'); 
+        }
+    </script>
+</body>
+</html>
