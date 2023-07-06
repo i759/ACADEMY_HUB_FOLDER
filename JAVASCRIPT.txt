@@ -1,0 +1,24 @@
+27 Of May 2023
+ALGORITHM: Step by step method to achieve a particular goal or solve a particular problem
+PSEUDOCODE: 
+Datatype: 
+Primitive-datatype: eg char, string,number,boolean,null, undefined
+composite-datatype:They can be updated 
+Variables: is a container used to store a value
+must not start with a number
+it uses camelcase style
+You can start with _ or $
+don't use reserved keyword to name variable
+
+Pop-up interactions:
+alert box
+prompt box
+confirm box
+
+
+document.write("Hello World")
+alert("Hello Class")
+document.getElementsById('idName')
+document.getElementsByClassName
+document.getElementsByName
+document.getElementsByTagName 

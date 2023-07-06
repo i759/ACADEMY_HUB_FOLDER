@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Declare a button with Id ChangeColor -->
+    <button id="colorChanger">Click me</button>
+    <script type="text/JavaScript">
+        const button = document.getElementById('colorChanger');
+        const randomColor = ['red', 'blue', 'yellow', 'grey', 'black', 'purple', 'green'];
+        function change() {
+            document.body.background = randomColor[Math.floor(Math.random() * 7)];
+        }
+        colorChanger.addEventListener('click', change);
+     
+    </script>
+</body>
+</html>

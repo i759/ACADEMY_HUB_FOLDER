@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+  cursor: move;
+}
+
+h1:hover {
+  color: #45a049;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 5px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #070c08;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+</style>
+<body>
+    <h1>To-Do List</h1>
+    <div class="container">
+        <input type="text" id="myTask" placeholder="Enter a task">
+        <button id="addButton">Add Task</button>
+    </div>
+    <ul id="taskList"></ul>
+    <script>
+        const task = document.getElementById('myTask');
+        const button = document.getElementById('addButton');
+        const list = document.getElementById('taskList');
+
+        function tasky() {
+            let text = myTask.value;
+            let newTask = document.createElement('li');
+            newTask.textContent = text;
+            taskList.appendChild(newTask);
+            myTask.value = '';
+        }
+        addButton.addEventListener('click', tasky)
+    </script>
+</body>
+</html>

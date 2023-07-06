@@ -1,0 +1,23 @@
+HTML elements are the building blocks of an HTML document. They define the structure and content of a web page. Here are some commonly used HTML elements:
+
+1. `<html>`: Represents the root element of an HTML document.
+2. `<head>`: Contains meta information about the document, such as the title and links to external stylesheets or scripts.
+3. `<title>`: Sets the title of the web page, which appears in the browser's title bar or tab.
+4. `<body>`: Contains the visible content of the web page, including text, images, links, and other elements.
+5. `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, `<h6>`: Heading elements used to define different levels of headings on the page.
+6. `<p>`: Defines a paragraph of text.
+7. `<a>`: Creates a hyperlink to another web page or a specific location within the same page.
+8. `<img>`: Inserts an image into the web page.
+9. `<ul>`: Represents an unordered list, typically displayed as a bulleted list.
+10. `<ol>`: Represents an ordered list, typically displayed as a numbered list.
+11. `<li>`: Defines a list item within an ordered or unordered list.
+12. `<div>`: Defines a division or a container that can be used for grouping and styling other elements.
+13. `<span>`: Defines an inline container used for styling or grouping text or other inline elements.
+14. `<table>`: Creates a table with rows and columns for organizing tabular data.
+15. `<form>`: Represents an interactive form that allows users to input data and submit it to a server.
+16. `<input>`: Defines an input field within a form, such as text input, checkboxes, radio buttons, etc.
+17. `<button>`: Creates a clickable button element.
+18. `<textarea>`: Defines a multi-line text input area.
+
+These are just a few examples of HTML elements. There are many more elements available that serve 
+different purposes and provide various functionalities for creating web pages.
